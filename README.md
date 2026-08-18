@@ -22,7 +22,7 @@ src/
   lib/                 # Class helper and form validation
 ```
 
-Homepage sections: Hero, About & existing property, New development timeline, Unit specifications, Media showcase, Location & amenities, FAQ accordion, and the three-part inquiry funnel (detailed contact form, priority list, reservation portal placeholder).
+Homepage sections: Hero, About & existing property, New development timeline, Unit specifications, Media showcase, Location & amenities, FAQ accordion, and a contact/leasing inquiry form with an optional priority-list checkbox.
 
 ## Local development
 
@@ -38,4 +38,4 @@ npm run lint
 npm run build
 ```
 
-Form submissions are client-side only in this draft: they validate locally and show success or error overlays. The “Pay deposit securely” control is a mock payment button.
+Form submissions are client-side only in this draft: they validate locally and show success or error overlays.

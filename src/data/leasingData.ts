@@ -45,15 +45,6 @@ export type MediaTab = {
   captions: string[];
 };
 
-export type UnitOption = {
-  id: string;
-  name: string;
-  use: string;
-  size: string;
-  deposit: string;
-  occupancy: string;
-};
-
 export const company = {
   name: "PLG",
   legalName: "PLG Commercial Holdings",
@@ -287,7 +278,7 @@ export const faqs: FaqItem[] = [
     id: "process",
     question: "What is the leasing process from inquiry to keys?",
     answer:
-      "Inquire or join the priority list, receive the leasing package, tour or reserve a suite, execute a letter of intent, and complete lease documentation. Reservation deposits are processed through the secure portal and applied at occupancy.",
+      "Submit a leasing inquiry and optionally join the priority list, receive the leasing package, tour a suite, execute a letter of intent, and complete lease documentation.",
   },
 ];
 
@@ -318,41 +309,6 @@ export const mediaTabs: MediaTab[] = [
     description:
       "Masonry, bronze-toned metal, and a rhythmic colonnade give The Meridian a landmark silhouette without sacrificing storefront flexibility.",
     captions: ["Boulevard elevation", "Dusk arrival", "Courtyard colonnade"],
-  },
-];
-
-export const unitOptions: UnitOption[] = [
-  {
-    id: "r-104",
-    name: "Suite R-104",
-    use: "Retail",
-    size: "2,150 SF",
-    deposit: "$8,600",
-    occupancy: "Q2 2027",
-  },
-  {
-    id: "o-210",
-    name: "Suite O-210",
-    use: "Office",
-    size: "4,800 SF",
-    deposit: "$14,400",
-    occupancy: "Q2 2027",
-  },
-  {
-    id: "m-120",
-    name: "Suite M-120",
-    use: "Medical",
-    size: "3,200 SF",
-    deposit: "$12,800",
-    occupancy: "Q2 2027",
-  },
-  {
-    id: "i-01",
-    name: "Bay I-01",
-    use: "Light industrial",
-    size: "8,400 SF",
-    deposit: "$16,800",
-    occupancy: "Q3 2027",
   },
 ];
 

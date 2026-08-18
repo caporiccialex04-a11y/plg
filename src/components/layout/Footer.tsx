@@ -69,7 +69,7 @@ export function Footer() {
       </Container>
       <Container className="flex flex-col gap-3 border-t border-white/10 py-6 text-xs text-cream/45 sm:flex-row sm:items-center sm:justify-between">
         <p>© {new Date().getFullYear()} {company.legalName}. All rights reserved.</p>
-        <p>Reservation deposits are credited toward first month’s rent.</p>
+        <p>Priority-list inquiries receive the leasing package first.</p>
       </Container>
     </footer>
   );

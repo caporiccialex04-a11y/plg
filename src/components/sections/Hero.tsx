@@ -26,7 +26,7 @@ export function Hero() {
             entitled campus.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <ButtonLink href="#priority" size="lg">
+            <ButtonLink href="#inquire" size="lg">
               Request Leasing Package
               <ArrowRight className="h-4 w-4" />
             </ButtonLink>

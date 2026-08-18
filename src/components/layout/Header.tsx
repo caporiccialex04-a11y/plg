@@ -49,7 +49,7 @@ export function Header() {
           ))}
         </nav>
         <div className="flex items-center gap-3">
-          <ButtonLink href="#priority" className="hidden sm:inline-flex" size="md">
+          <ButtonLink href="#inquire" className="hidden sm:inline-flex" size="md">
             Join Priority List
           </ButtonLink>
           <button
@@ -81,7 +81,7 @@ export function Header() {
             </a>
           ))}
           <ButtonLink
-            href="#priority"
+            href="#inquire"
             className="mt-3"
             onClick={() => setOpen(false)}
           >
