@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #0b1d36;
+  --navy-deep: #071322;
+  --navy-mid: #153056;
+  --navy-soft: #1e3d68;
+  --gold: #c4a35a;
+  --gold-light: #dcc48a;
+  --gold-dark: #9a7a32;
+  --emerald: #1a7a6d;
+  --emerald-light: #2a9a8b;
+  --cream: #f6f3ec;
+  --cream-dark: #ebe6d9;
+  --ink: #142033;
+  --muted: #5c6778;
+  --line: rgba(11, 29, 54, 0.12);
+  --background: var(--cream);
+  --foreground: var(--ink);
+}
+
+@theme inline {
+  --color-navy: var(--navy);
+  --color-navy-deep: var(--navy-deep);
+  --color-navy-mid: var(--navy-mid);
+  --color-navy-soft: var(--navy-soft);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-gold-dark: var(--gold-dark);
+  --color-emerald: var(--emerald);
+  --color-emerald-light: var(--emerald-light);
+  --color-cream: var(--cream);
+  --color-cream-dark: var(--cream-dark);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-outfit);
+  --font-display: var(--font-cormorant);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-outfit), system-ui, sans-serif;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--gold) 40%, transparent);
+  color: var(--navy);
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
